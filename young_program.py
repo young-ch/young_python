@@ -19,4 +19,13 @@ def dsum(a, b):
     result = a + b
     return result 
 
+print(">>>>>>>>>dsum함수>>>>>>>>>>")
 print(dsum(2,3))
+
+print(">>>>>>>>>chat>>>>>>>>>>")
+def chat(name1, name2):
+  print("%s : 안녕?" % name1)
+  print("%s : 하이" % name2)
+
+
+chat("영철","나경")
