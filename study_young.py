@@ -1,18 +1,15 @@
+#import stock
+import os
+import class_base
 
-i = 0
-n = 0
+#현재경로 가져오기
+os.getcwd()
 
-for n in range(0,5):
-    for i in range(0,n) :
-        print("*", end='')
-        i = i + 1
-    print("\n")
-    
 
-line = 2
+#함수의 인자로 리스트를받은 후 리스트 내에 있는 모든 정숫값에 대한 최댓값과 최솟값을 반환하는 함수를 작성하세요.
 
-for x in range(1, line * 2, 2):
-    print((" " * ( (line * 2 - 1 - x) // 2 )) + ("*" * x))
+fh = class_base.businessCard()
+fh.get_max_min()
 
-for y in range(line * 2-3, 0, -2):
-    print((" " * ( (line * 2 - 1 - y) // 2 )) + "*" * y)
+cb = class_base.businessCard()
+cb.print_info('young','young90','korea_city')
