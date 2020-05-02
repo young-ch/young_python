@@ -10,7 +10,7 @@ instCpStockCode =win32com.client.Dispatch("CpUtil.CpStockCode")
 
 for i in range(instCpStockCode.GetCount()):
 
-    if instCpStockCode.GetData(1,i) == 'NAVER':
+    if instCpStockCode.GetData(1,i) == '삼성전자':
         print(instCpStockCode.GetData(1,i))
         print(instCpStockCode.GetData(0,i))
         print(i)
